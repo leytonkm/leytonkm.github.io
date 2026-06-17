@@ -191,10 +191,24 @@ a:hover {
   width: 2rem;
   height: 2rem;
   border-radius: 4px;
-  object-fit: contain;
+  object-fit: cover;
   flex-shrink: 0;
   margin-top: 0.15rem;
   border: 1px solid var(--border);
+}
+
+.org-initial {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #f4f4f4;
+  border: 1px solid var(--border);
+  border-radius: 4px;
+  font-family: var(--font-sans);
+  font-size: 0.65rem;
+  font-weight: 600;
+  letter-spacing: 0.02em;
+  color: var(--muted);
 }
 
 .resume-entry-body {
@@ -372,6 +386,17 @@ a:hover {
 .coming-soon {
   color: var(--muted);
   font-style: italic;
+}
+
+/* Fitness */
+#fitness {
+  text-align: center;
+  padding-top: 2.5rem;
+}
+
+#fitness iframe {
+  display: block;
+  margin: 0 auto;
 }
 
 /* Projects */
